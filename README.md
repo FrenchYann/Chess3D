@@ -7,6 +7,7 @@ Using the pretty good javascript chess AI developped by Gary Linscott ( https://
 
 My code should be thoroughly commented.
 
-You can try it [here|http://dl.dropboxusercontent.com/u/23551572/javascript/webGL/Chess3D/index.html]
+You can try it here 
+http://dl.dropboxusercontent.com/u/23551572/javascript/webGL/Chess3D/index.html
 
 Enjoy (:
