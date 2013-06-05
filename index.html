@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style type="text/css">
+      html,body,canvas {
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        background:black;
+        font-family: Verdana,Arial,sans-serif;
+      }
+      body {
+        overflow:visible;
+      }
+
+      /* main gui bar */
+      #gui, #gui div {
+        overflow:hidden;
+      }
+
+      #gui ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+      #gui .ui-accordion-content {
+        padding: 0.2em 0.2em;
+        border-top: 0;      
+      }
+      #gui textarea {
+        background:transparent;
+        border:1px solid white;
+        resize:none;
+        color:white;
+        font-size: 0.7em;
+        font-family: 'consolas' monospace;
+      }
+
+      /* check/stale/mate display */
+      #info {
+        font-size:1.5em;
+        padding:0.3em 1.0em;
+        text-align:right;
+        color: #ff4444;
+        width:150;
+        display:none;
+      }
+
+      /* loading */
+      #progressbar {
+        padding:2px;
+        border:2px solid #bbb;
+      }
+      #progress-label {
+        color:#bbb;
+        width:100%;
+        position: absolute;
+        text-align: center;
+        top: 7px;
+        font-weight: bold;
+      }      
+      #tips {
+        text-align: center;
+      }
+    </style>
+<!-- libraries //-->    
+<script type="text/javascript" src="js/lib/three.min.js"></script>
+<script type="text/javascript" src="js/lib/OrbitAndPanControls.js"></script>
+
+<!-- JQuery //-->
+<link href="css/dark-hive/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+<script src="js/jquery/jquery-1.9.1.js"></script>
+<script src="js/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+
+
+<!-- CHESS AI -->
+<script type="text/javascript" src="js/AI/garbochess.js"></script>
+
+<!-- 3D //-->
+<script type="text/javascript">
+var WIREFRAME = false;
+var SHADOW = false;
+var BLACK = 0;
+var WHITE = 1;
+var FEEDBACK = 2;
+var DEBUG = false;
+var BOARD_SIZE = 100;
+var PIECE_SIZE = 0.4;
+var FLOOR_SIZE = 2000;
+var COLS = 8;
+var ROWS = 8;
+var LOADING_BAR_SCALE = 0.3;
+</script>
+<script type="text/javascript" src="js/three-extend.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
+<script type="text/javascript" src="js/Cell.js"></script>
+<script type="text/javascript" src="js/factory.js"></script>
+<script type="text/javascript" src="js/pgnParser.js"></script>
+<script type="text/javascript" src="js/gui.js"></script>
+<script type="text/javascript" src="js/chess.js"></script>
+<script type="text/javascript">
+
+</script>
+  </head>
+  <body id="container">
+  </body>
+</html>
