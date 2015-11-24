@@ -18,5 +18,5 @@ Enjoy (:
 
   [1]: https://github.com/glinscott/Garbochess-JS
   [2]: http://en.wikipedia.org/wiki/Portable_Game_Notation
-  [3]: https://dl.dropboxusercontent.com/u/23551572/javascript/webGL/Chess3D/screenshot.jpg
-  [4]: http://dl.dropboxusercontent.com/u/23551572/javascript/webGL/Chess3D/index.html
+  [3]: http://yanngranjon.com/static/games/chess3D/screenshot.jpg
+  [4]: http://yanngranjon.com/static/games/chess3D/
